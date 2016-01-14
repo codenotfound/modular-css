@@ -1,10 +1,12 @@
-@import "compass/css3/font-face";
+//Global variables
+
 //fonts
 @include font-face("HelveticaNeueCyr-Light",
 font-files("HelveticaNeueCyr-Light.otf"));
 @include font-face("HelveticaNeueCyr-Roman",
 font-files("HelveticaNeueCyr-Roman.otf"));
 @include font-face("HelveticaNeueCyr-Bold", font-files("HelveticaNeueCyr-Bold.otf"));
+
 //colors
 $primary-color: #333333;
 //social

@@ -1,14 +1,17 @@
 //style.scss
 @import "compass/reset";
-@import "layout";
-@import "typography";
-@import "header";
-@import "menu";
-@import "footer";
-@import "description";
-@import "grid";
-@import "skills";
-@import "pricing-table";
+@import "compass/css3/font-face";
+@import "config";
+
+//blocks
+@import "blocks/layout";
+@import "blocks/header";
+@import "blocks/menu";
+@import "blocks/footer";
+@import "blocks/description";
+@import "blocks/grid";
+@import "blocks/skills";
+@import "blocks/pricing-table";
 
 //common styles
 body {

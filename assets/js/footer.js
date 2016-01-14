@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    // var networks = ["dribbble", "vk", "instagram"];
-    // for(i=0; i<networks.length;i++){
 // ==================================================
     // footer hover 
 // ==================================================
