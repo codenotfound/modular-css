@@ -1,0 +1,86 @@
+//http://alijafarian.com/jquery-horizontal-slideout-menu/
+.menu {
+	/* transition: padding 0.2s ease-out 0s; */
+    /* display: none; */
+    padding-top: 70px;
+	/* padding: 70px 100px 100px; */
+	/* width: 100%; */
+	/* height: 100%; */
+	/* max-width: 1300px; */
+	background: #FFF none repeat scroll 0% 0%;
+	/* position: fixed; */
+	z-index: 1000;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+
+    &__close-btn {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        float: right;
+        position: relative;
+        clear: both;
+        vertical-align: middle;
+    }
+    &__line {
+        width: 40px;
+        height: 5px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        margin-left: -20px;
+        background: #D6D6D7 none repeat scroll 0% 0%;
+        &--left {
+            transform: rotate(45deg);
+        }
+        &--right {
+            transform: rotate(-45deg);
+        }
+    }
+    &__list {
+        padding-top: 50px;
+        text-align: right;
+        float: right;
+        clear: right;
+    }
+    &__item {
+        /* font-size: 3.8rem; */
+        /* line-height: 3.8rem; */
+        /* opacity: 0; */
+        /* transform: translate(160px, 0px); */
+        margin-bottom: 30px;
+        &--email {
+            padding-top: 30px;        
+        }
+    }
+    &__link{
+        text-decoration:none;
+        font-size: 38px;
+        line-height: 38px;
+        font-family: HelveticaNeueCyr-Light,sans-serif;
+        color: $primary-color;
+        position: relative;
+        &--contact{
+         margin-bottom: 35px;
+         padding-bottom: 2px;
+         font-size: 33px;
+         color: $link-color;
+         border-bottom: 2px solid #D6D6D7;
+         transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+         &:hover {
+            border-color: $description__link-hover-color;
+         }
+        }
+    }
+    &__dot{
+        border-radius: 100%;
+        background-clip: padding-box;
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        left: -20px;
+        top: 20px;
+        background-color: red;
+    }
+}

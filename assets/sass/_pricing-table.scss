@@ -1,0 +1,62 @@
+.pricing-table {
+    text-align:center;
+    
+}
+.pricing-col {
+    width: 300px;
+    margin-right: 20px;
+    display: inline-block;
+    &--last {margin-right: 0;}
+    
+    &__item {
+        color: $pricing-col__item-color;
+        background-color: $pricing-col__item-background;
+        border-bottom: 2px solid $pricing-col__item-border;
+        padding: 30px;
+        &--main {
+            padding-top: 50px;
+            background-color: $pricing-col__main-bg-color;
+            height:300px;
+            box-sizing:border-box;
+        }
+        &--bold {
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+    &__header {
+        margin-bottom: 50px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+    &__price {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 40px;
+        color: #fff;
+        font-size: 75px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__unit {
+        font-size: 32px;
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+    &__description {
+        font-style: italic;    
+        text-align: center;
+        font-size: 15px;
+    }
+    &__label {
+        padding:5px;
+        text-transform: uppercase;
+        color: #FFF;
+        background: $price-color;
+        border-radius: 4px;
+    }
+}

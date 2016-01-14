@@ -1,0 +1,35 @@
+.grid {
+    overflow:hidden;
+    font-size:0; 
+    &__12 {
+       width:100%;
+    }
+    &__7 {
+       width:58.3333%;
+    }
+    &__8 {
+       width:66.6667%;
+    }
+    &__5 {
+       width:41.6666%;
+    }
+    &__4 {
+       width:33.3333%;
+    }
+    &__item{
+        font-size:1;
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: top;
+        margin-bottom: 50px;
+        &--left { padding-right: 25px; }
+        &--right { padding-left: 25px; }
+    }
+    &__image {
+      max-width: 100%;
+      height: 400px;
+    }
+    
+    
+    
+}

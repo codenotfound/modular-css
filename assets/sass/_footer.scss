@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 200px;
+    padding-bottom: 40px;
+    overflow: hidden; //clearfix
+    &__social-line {
+        padding: 10px 0;
+    }
+    &__social-img {
+        width: 32px;    
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    &__social-link {
+        vertical-align: middle;
+        padding-bottom: 2px;
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 21px;
+        border-bottom: 2px solid #D6D6D7;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+        /* &--dribbble:hover {border-color: $dribble-color;} */
+        /* &--vk:hover { border-color: $vk-color; } */
+        /* &--instagram:hover {border-color: $instagram-color;} */
+    }
+}

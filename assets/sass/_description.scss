@@ -1,0 +1,52 @@
+.description {
+    padding-bottom: 110px;
+    &--nopadding {
+        padding-bottom:0;
+    }
+    
+     &__header  {
+        letter-spacing: 6px;
+        font-size: 27px;
+        color: $description-color;
+        font-family:  HelveticaNeueCyr-Light, sans-serif;
+        margin-bottom: 90px;
+     }
+     &__name {
+        color: $primary-color;
+        font-family:  HelveticaNeueCyr-Bold, sans-serif;
+        font-size: 27px; 
+        margin-bottom: 80px;
+     }
+     
+     &__body {
+        padding-bottom: 40px;
+        font-size: 33px;
+        line-height: 150%;
+        font-family:  HelveticaNeueCyr-Light, sans-serif;
+        &--width900 {
+            width: 900px;    
+        }
+        &--padding-right-100 {
+            padding-right: 100px;
+        }
+     }
+     &__partners-container {
+         vertical-align: top;
+            display: inline-block;
+            width: 50%;
+     }
+     
+     &__link {
+         display: inline-block;
+         margin-bottom: 35px;
+         padding-bottom: 2px;
+         font-size: 33px;
+         color: $link-color;
+         text-decoration: none;
+         border-bottom: 2px solid #D6D6D7;
+         transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+         &:hover {
+            border-color: $description__link-hover-color;
+         }
+     }
+}

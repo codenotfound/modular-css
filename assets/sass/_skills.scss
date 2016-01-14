@@ -1,0 +1,20 @@
+.skills {
+	background: transparent url("../img/skills_bg.jpg") 
+    no-repeat scroll center 100% ;
+    text-align: justify;
+    padding: 20px 0px;
+    &__item {
+        display: inline-block;     
+        text-align:center;
+    }
+    &__image {
+        margin-bottom:10px;
+        
+    }
+    &__name {
+        font-family:  HelveticaNeueCyr-Bold, sans-serif;
+        font-size: 20px;
+        color: #FFF;
+        
+    }
+}

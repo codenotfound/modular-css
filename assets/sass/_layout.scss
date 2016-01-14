@@ -1,0 +1,19 @@
+//layout.scss
+.l-container{
+	margin: 0 auto;
+	width: 1300px;
+    padding: 0 100px;
+    box-sizing: border-box;
+    &--justify:after {
+    display:inline-block;
+    width:100%;
+    content:'';
+}
+}
+.l-left{
+  float: left;
+}
+.l-right {
+  float: right;
+}
+

@@ -1,0 +1,489 @@
+/* line 5, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/_layout.scss */
+.l-container {
+  margin: 0 auto;
+  width: 1300px;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+/* line 7, ../sass/_layout.scss */
+.l-container--justify:after {
+  display: inline-block;
+  width: 100%;
+  content: '';
+}
+
+/* line 13, ../sass/_layout.scss */
+.l-left {
+  float: left;
+}
+
+/* line 16, ../sass/_layout.scss */
+.l-right {
+  float: right;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Light";
+  src: url('../fonts/HelveticaNeueCyr-Light.otf?1371298208') format('opentype');
+}
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url('../fonts/HelveticaNeueCyr-Roman.otf?1371298208') format('opentype');
+}
+@font-face {
+  font-family: "HelveticaNeueCyr-Bold";
+  src: url('../fonts/HelveticaNeueCyr-Bold.otf?1371298208') format('opentype');
+}
+/* line 1, ../sass/_header.scss */
+.header {
+  padding-top: 70px;
+  padding-bottom: 400px;
+  overflow: hidden;
+}
+/* line 5, ../sass/_header.scss */
+.header__logo {
+  font-family: HelveticaNeueCyr-Bold, sans-serif;
+  font-size: 42px;
+}
+/* line 8, ../sass/_header.scss */
+.header__logo--portfolio {
+  color: #26ade4;
+}
+/* line 9, ../sass/_header.scss */
+.header__logo--studio {
+  color: #4ecdc4;
+}
+/* line 10, ../sass/_header.scss */
+.header__logo--price {
+  color: #c32361;
+}
+/* line 11, ../sass/_header.scss */
+.header__logo--contacts {
+  color: #d1e751;
+}
+/* line 14, ../sass/_header.scss */
+.header__line {
+  height: 5px;
+  width: 40px;
+  margin-bottom: 5px;
+}
+/* line 18, ../sass/_header.scss */
+.header__line--portfolio {
+  background: #26ade4;
+}
+/* line 19, ../sass/_header.scss */
+.header__line--studio {
+  background: #4ecdc4;
+}
+/* line 20, ../sass/_header.scss */
+.header__line--price {
+  background: #c32361;
+}
+/* line 21, ../sass/_header.scss */
+.header__line--contacts {
+  background: #d1e751;
+}
+
+/* line 2, ../sass/_menu.scss */
+.menu {
+  /* transition: padding 0.2s ease-out 0s; */
+  /* display: none; */
+  padding-top: 70px;
+  /* padding: 70px 100px 100px; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* max-width: 1300px; */
+  background: #FFF none repeat scroll 0% 0%;
+  /* position: fixed; */
+  z-index: 1000;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+}
+/* line 17, ../sass/_menu.scss */
+.menu__close-btn {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  float: right;
+  position: relative;
+  clear: both;
+  vertical-align: middle;
+}
+/* line 26, ../sass/_menu.scss */
+.menu__line {
+  width: 40px;
+  height: 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin-left: -20px;
+  background: #D6D6D7 none repeat scroll 0% 0%;
+}
+/* line 34, ../sass/_menu.scss */
+.menu__line--left {
+  transform: rotate(45deg);
+}
+/* line 37, ../sass/_menu.scss */
+.menu__line--right {
+  transform: rotate(-45deg);
+}
+/* line 41, ../sass/_menu.scss */
+.menu__list {
+  padding-top: 50px;
+  text-align: right;
+  float: right;
+  clear: right;
+}
+/* line 47, ../sass/_menu.scss */
+.menu__item {
+  /* font-size: 3.8rem; */
+  /* line-height: 3.8rem; */
+  /* opacity: 0; */
+  /* transform: translate(160px, 0px); */
+  margin-bottom: 30px;
+}
+/* line 53, ../sass/_menu.scss */
+.menu__item--email {
+  padding-top: 30px;
+}
+/* line 57, ../sass/_menu.scss */
+.menu__link {
+  text-decoration: none;
+  font-size: 38px;
+  line-height: 38px;
+  font-family: HelveticaNeueCyr-Light,sans-serif;
+  color: #333333;
+  position: relative;
+}
+/* line 64, ../sass/_menu.scss */
+.menu__link--contact {
+  margin-bottom: 35px;
+  padding-bottom: 2px;
+  font-size: 33px;
+  color: #9a9a9a;
+  border-bottom: 2px solid #D6D6D7;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+/* line 71, ../sass/_menu.scss */
+.menu__link--contact:hover {
+  border-color: #4DBCE9;
+}
+/* line 76, ../sass/_menu.scss */
+.menu__dot {
+  border-radius: 100%;
+  background-clip: padding-box;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  background-color: red;
+}
+
+/* line 1, ../sass/_footer.scss */
+.footer {
+  margin-top: 200px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+/* line 5, ../sass/_footer.scss */
+.footer__social-line {
+  padding: 10px 0;
+}
+/* line 8, ../sass/_footer.scss */
+.footer__social-img {
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* line 13, ../sass/_footer.scss */
+.footer__social-link {
+  vertical-align: middle;
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 21px;
+  border-bottom: 2px solid #D6D6D7;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  /* &--dribbble:hover {border-color: $dribble-color;} */
+  /* &--vk:hover { border-color: $vk-color; } */
+  /* &--instagram:hover {border-color: $instagram-color;} */
+}
+
+/* line 1, ../sass/_description.scss */
+.description {
+  padding-bottom: 110px;
+}
+/* line 3, ../sass/_description.scss */
+.description--nopadding {
+  padding-bottom: 0;
+}
+/* line 7, ../sass/_description.scss */
+.description__header {
+  letter-spacing: 6px;
+  font-size: 27px;
+  color: #c8c8c8;
+  font-family: HelveticaNeueCyr-Light, sans-serif;
+  margin-bottom: 90px;
+}
+/* line 14, ../sass/_description.scss */
+.description__name {
+  color: #333333;
+  font-family: HelveticaNeueCyr-Bold, sans-serif;
+  font-size: 27px;
+  margin-bottom: 80px;
+}
+/* line 21, ../sass/_description.scss */
+.description__body {
+  padding-bottom: 40px;
+  font-size: 33px;
+  line-height: 150%;
+  font-family: HelveticaNeueCyr-Light, sans-serif;
+}
+/* line 26, ../sass/_description.scss */
+.description__body--width900 {
+  width: 900px;
+}
+/* line 29, ../sass/_description.scss */
+.description__body--padding-right-100 {
+  padding-right: 100px;
+}
+/* line 33, ../sass/_description.scss */
+.description__partners-container {
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
+/* line 39, ../sass/_description.scss */
+.description__link {
+  display: inline-block;
+  margin-bottom: 35px;
+  padding-bottom: 2px;
+  font-size: 33px;
+  color: #9a9a9a;
+  text-decoration: none;
+  border-bottom: 2px solid #D6D6D7;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+/* line 48, ../sass/_description.scss */
+.description__link:hover {
+  border-color: #4DBCE9;
+}
+
+/* line 1, ../sass/_grid.scss */
+.grid {
+  overflow: hidden;
+  font-size: 0;
+}
+/* line 4, ../sass/_grid.scss */
+.grid__12 {
+  width: 100%;
+}
+/* line 7, ../sass/_grid.scss */
+.grid__7 {
+  width: 58.3333%;
+}
+/* line 10, ../sass/_grid.scss */
+.grid__8 {
+  width: 66.6667%;
+}
+/* line 13, ../sass/_grid.scss */
+.grid__5 {
+  width: 41.6666%;
+}
+/* line 16, ../sass/_grid.scss */
+.grid__4 {
+  width: 33.3333%;
+}
+/* line 19, ../sass/_grid.scss */
+.grid__item {
+  font-size: 1;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+/* line 25, ../sass/_grid.scss */
+.grid__item--left {
+  padding-right: 25px;
+}
+/* line 26, ../sass/_grid.scss */
+.grid__item--right {
+  padding-left: 25px;
+}
+/* line 28, ../sass/_grid.scss */
+.grid__image {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* line 1, ../sass/_skills.scss */
+.skills {
+  background: transparent url("../img/skills_bg.jpg") no-repeat scroll center 100%;
+  text-align: justify;
+  padding: 20px 0px;
+}
+/* line 6, ../sass/_skills.scss */
+.skills__item {
+  display: inline-block;
+  text-align: center;
+}
+/* line 10, ../sass/_skills.scss */
+.skills__image {
+  margin-bottom: 10px;
+}
+/* line 14, ../sass/_skills.scss */
+.skills__name {
+  font-family: HelveticaNeueCyr-Bold, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+}
+
+/* line 1, ../sass/_pricing-table.scss */
+.pricing-table {
+  text-align: center;
+}
+
+/* line 5, ../sass/_pricing-table.scss */
+.pricing-col {
+  width: 300px;
+  margin-right: 20px;
+  display: inline-block;
+}
+/* line 9, ../sass/_pricing-table.scss */
+.pricing-col--last {
+  margin-right: 0;
+}
+/* line 11, ../sass/_pricing-table.scss */
+.pricing-col__item {
+  color: #969390;
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #f0f0f0;
+  padding: 30px;
+}
+/* line 16, ../sass/_pricing-table.scss */
+.pricing-col__item--main {
+  padding-top: 50px;
+  background-color: #181818;
+  height: 300px;
+  box-sizing: border-box;
+}
+/* line 22, ../sass/_pricing-table.scss */
+.pricing-col__item--bold {
+  font-weight: bold;
+  color: #333333;
+}
+/* line 27, ../sass/_pricing-table.scss */
+.pricing-col__header {
+  margin-bottom: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: center;
+}
+/* line 35, ../sass/_pricing-table.scss */
+.pricing-col__price {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 44, ../sass/_pricing-table.scss */
+.pricing-col__unit {
+  font-size: 32px;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+/* line 50, ../sass/_pricing-table.scss */
+.pricing-col__description {
+  font-style: italic;
+  text-align: center;
+  font-size: 15px;
+}
+/* line 55, ../sass/_pricing-table.scss */
+.pricing-col__label {
+  padding: 5px;
+  text-transform: uppercase;
+  color: #FFF;
+  background: #c32361;
+  border-radius: 4px;
+}
+
+/* line 14, ../sass/style.scss */
+body {
+  font-family: HelveticaNeueCyr-Roman, sans-serif;
+  color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */

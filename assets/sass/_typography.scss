@@ -1,0 +1,26 @@
+@import "compass/css3/font-face";
+//fonts
+@include font-face("HelveticaNeueCyr-Light",
+font-files("HelveticaNeueCyr-Light.otf"));
+@include font-face("HelveticaNeueCyr-Roman",
+font-files("HelveticaNeueCyr-Roman.otf"));
+@include font-face("HelveticaNeueCyr-Bold", font-files("HelveticaNeueCyr-Bold.otf"));
+//colors
+$primary-color: #333333;
+//social
+$dribble-color: #ea4c89;
+$vk-color: #1f4685;
+$instagram-color: #a87e5e;
+//pages
+$portfolio-color: #26ade4;
+$studio-color: #4ecdc4;
+$price-color: #c32361;
+$contacts-color: #d1e751;
+//blocks
+$description-color: #c8c8c8;
+$description__link-hover-color: #4DBCE9;
+$link-color: #9a9a9a;
+$pricing-col__item-color: #969390;
+$pricing-col__item-background: #f7f7f7;
+$pricing-col__item-border: #f0f0f0;
+$pricing-col__main-bg-color: #181818;

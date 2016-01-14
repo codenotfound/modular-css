@@ -1,0 +1,17 @@
+//style.scss
+@import "compass/reset";
+@import "layout";
+@import "typography";
+@import "header";
+@import "menu";
+@import "footer";
+@import "description";
+@import "grid";
+@import "skills";
+@import "pricing-table";
+
+//common styles
+body {
+   font-family:  HelveticaNeueCyr-Roman, sans-serif;
+   color: $primary-color;
+}
