@@ -4,28 +4,77 @@
     <meta charset="UTF-8">
     <title>Web Studio - Contact</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/jquery-2.1.4.min.js"></script>
-    <script src="assets/js/footer.js"></script>
 </head>
 <body>
 <!-- ============================================================ -->
+                        <!-- MENU -->
+<!-- ============================================================ -->
+<nav class="menu" role="navigation">
+    <div class="l-container">
+        <div class="menu__close-btn js-menu-toggle">
+            <div class="menu__line menu__line--left"></div>
+            <div class="menu__line menu__line--right"></div>
+        </div>
+        <ul class="menu__list" role="menu">
+            <li class="menu__item">
+                <a class="menu__link"  href="index.html">
+                    <div class="menu__dot menu__dot--portfolio"></div>
+                    Portfolio 
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link"  href="studio.html">
+                    <div class="menu__dot menu__dot--studio"></div>
+                    Studio
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link"  href="price.html">
+                    <div class="menu__dot menu__dot--price"></div>
+                    Prices
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link"  href="contact.html">
+                    <div class="menu__dot menu__dot--contacts menu__dot--current"></div>
+                    Contact
+                </a>
+            </li>
+            <li class="menu__item menu__item--contact menu__item--email">
+                <a class="menu__link menu__link--contact" 
+                    href="mailto:webstudio@gmail.com">
+                    webstudio@gmail.com
+                </a>
+            </li>
+            <li class="menu__item menu__item--contact">
+                <a class="menu__link menu__link--contact" href="tel:+79071239876">
+                    +7 907 123 9876
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- ============================================================ -->
+                        <!-- END MENU -->
+<!-- ============================================================ -->
+<!-- ============================================================ -->
                         <!-- HEADER -->
 <!-- ============================================================ -->
-    <div class="header">
-        <div class="l-container">
-            <div class="l-left">
-                <div class="header__logo header__logo--contacts">Web Studio</div>
-            </div>
-            <div class="l-right">
-                <div class="header__menu-btn">
-                    <div class="header__line header__line--contacts"></div>
-                    <div class="header__line header__line--contacts"></div>
-                    <div class="header__line header__line--contacts"></div>
-                    <div class="header__line header__line--contacts"></div>
-                </div>
+<div class="header">
+    <div class="l-container">
+        <div class="l-left">
+            <div class="header__logo header__logo--contacts">Web Studio</div>
+        </div>
+        <div class="l-right">
+            <div class="header__menu-btn js-menu-toggle">
+                <div class="header__line header__line01 header__line--contacts"></div>
+                <div class="header__line header__line02 header__line--contacts"></div>
+                <div class="header__line header__line03 header__line--contacts"></div>
+                <div class="header__line header__line04 header__line--contacts"></div>
             </div>
         </div>
     </div>
+</div>
 <!-- ============================================================ -->
                         <!-- END HEADER -->
 <!-- ============================================================ -->
@@ -105,6 +154,9 @@
 <!-- ============================================================ -->
                         <!-- END FOOTER -->
 <!-- ============================================================ -->
-
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/header.js"></script>
+<script src="assets/js/footer.js"></script>
 </body>
 </html>

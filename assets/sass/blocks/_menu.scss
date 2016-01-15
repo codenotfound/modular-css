@@ -4,6 +4,7 @@
     opacity: 0;
     display: block;
     height: 100%;
+    width: 100%;
     margin: 0 auto;
     position:fixed;
     top:0;
@@ -85,6 +86,14 @@
         position: absolute;
         left: -20px;
         top: 20px;
-        background-color: red;
+        opacity: 0;
+        transition: $main-transition;
+        &--current, &--mouseover {
+            opacity: 1;
+        }
+        &--portfolio {background-color: $portfolio-color; }
+        &--studio { background-color: $studio-color; }
+        &--price { background-color: $price-color; }
+        &--contacts { background-color: $contacts-color; }
     }
 }
