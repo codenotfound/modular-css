@@ -11,14 +11,51 @@
        &--contacts { color: $contacts-color; }
        
     }
+    &__menu-btn {
+        display: block;
+        position: relative;     
+        width:40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
     &__line {
+        position: absolute;
+        right: 0;
         height: 5px;
         width: 40px;
-        margin-bottom: 5px;
+        transition: $main-transition;
         &--portfolio { background: $portfolio-color; }
         &--studio { background: $studio-color; }
         &--price { background: $price-color; }
         &--contacts { background: $contacts-color; }
     }
-
+    &__line01 {
+        width: 40px;        
+        top: 0;
+        &--mouseover {
+            width: 20px;         
+        }
+    }
+    &__line02 {
+        width: 20px;        
+        top: 10px;
+        &--mouseover {
+            width: 30px;         
+        }
+    }
+    &__line03 {
+        width: 30px;        
+        top: 20px;
+        &--mouseover {
+            width: 40px;         
+        }
+    }
+    &__line04 {
+        width: 40px;        
+        top: 30px;
+        &--mouseover {
+            width: 20px;         
+        }
+    }
 }
